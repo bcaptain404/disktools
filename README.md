@@ -1,0 +1,3 @@
+- rip.sh: CLI front-end to rip disks & disk images.
+- smart.sh: CLI front-end to manage S.M.A.R.T. statuses.
+- all other tools are works in progress; use at your own risk.
