@@ -1,0 +1,9 @@
+# remove hiberfile, to mount readwrite:
+mount -t ntfs-3g -o remove_hiberfile /dev/sdXX /media/windows
+# or just
+mount -o remove_hiberfile ...
+
+# clear bad sectors on NTFS after cloning disk:
+chkdsk /x NEWDISK
+chkdsk /b NEWDISK
+
